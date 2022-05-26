@@ -82,6 +82,14 @@ h3{
     transform: rotate(0);
   }
 }
+@media (max-width: 600px) {
+  #heading{
+    font-size: 2.4rem;
+  }
+  .title-image{
+    width: 150px;
+  }
+}
 
 /*Feature Section*/
 #features{
@@ -124,6 +132,11 @@ h3{
   font-size: 3rem;
   line-height: 1.5;
 }
+@media (max-width:600px) {
+  .testimonial-text{
+    font-size: 1.5rem;
+  }
+}
 
 .testimonial-image{
   width: 10%;
@@ -142,7 +155,7 @@ h3{
 }
 
 .press-img{
-  width: 15%;
+  width: 20%;
   margin: 20px 20px 50px
 }
 
@@ -153,6 +166,18 @@ h3{
 
 .top-space{
   margin-top: 3%;
+}
+
+@media (max-width: 600px) {
+  #pricing > h2{
+    font-size: 2rem;
+  }
+  .card-header > h3{
+    font-size: 1.9rem;
+  }
+  .card-body > h2{
+    font-size: 1.7rem;
+  }
 }
 
 /*Footer and CTA*/
@@ -171,6 +196,11 @@ h3{
 @media (max-width: 720px){
   .cta-header{
     font-size: 2.5rem;
+  }
+}
+@media (max-width: 600px){
+  .cta-header{
+    font-size: 2rem;
   }
 }
 
