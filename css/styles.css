@@ -132,14 +132,9 @@ h3{
   font-size: 3rem;
   line-height: 1.5;
 }
-@media (max-width:600px) {
-  .testimonial-text{
-    font-size: 1.5rem;
-  }
-}
 
 .testimonial-image{
-  width: 10%;
+  width: 20%;
   border-radius: 100%;
   margin: 20px;
 }
@@ -157,6 +152,18 @@ h3{
 .press-img{
   width: 20%;
   margin: 20px 20px 50px
+}
+
+@media (max-width:600px) {
+  .testimonial-text{
+    font-size: 1.5rem;
+  }
+  .testimonial-image{
+    width: 30%;
+  }
+  .press-img{
+    width: 30%;
+  }
 }
 
 /*Pricing Section*/
@@ -217,8 +224,9 @@ h3{
 .footer-images>i{
   margin-left: 10px;
   margin-right: 10px;
+  font-size: 1.4rem;
 }
 
 #footer>p{
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
